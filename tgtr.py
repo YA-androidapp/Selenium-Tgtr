@@ -24,7 +24,7 @@ import requests
 
 currentdirectory = os.path.dirname(os.path.abspath(__file__))
 os.chdir(currentdirectory)
-print(os.getcwd)
+print(os.getcwd())
 
 # 設定ファイル読み込み
 inifile = configparser.ConfigParser()
